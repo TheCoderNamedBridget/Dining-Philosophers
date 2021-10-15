@@ -1,0 +1,25 @@
+
+public class DiningClass implements DiningServer
+{
+
+	/*
+	 * Checks mutex and if it isn't locked for the 2 forks next to the philosoper then the philosopher takes both forks
+	 * if can't take both then waits
+	 * if takes one and can't take the other then drops
+	 */
+	@Override
+	public void takeForks(int philosopherNumber) {
+		// TODO Auto-generated method stub
+		
+	}
+
+	/*
+	 * after takes both forks then drops the forks and unlocks the mutexes
+	 */
+	@Override
+	public void returnForks(int philosopherNumber) {
+		// TODO Auto-generated method stub
+		
+	}
+
+}

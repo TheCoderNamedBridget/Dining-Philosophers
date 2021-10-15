@@ -27,4 +27,11 @@ public class DiningPhilosopherClient implements DiningServer
 		// TODO Auto-generated method stub
 		
 	}
+	
+	public double waitRandomTime()
+	{
+		return 1 + Math.random()*2;
+	}
+	
+	
 }

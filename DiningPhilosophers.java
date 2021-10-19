@@ -12,7 +12,7 @@ import java.util.concurrent.Executors;
 public class DiningPhilosophers extends DiningServerImpl {
 
 	public static void main(String args[]) {
-		initializeForks();
+		initialize();
 		// Create Philosophers and run them here
 		Philosopher p1 = new Philosopher(1);
 		Philosopher p2 = new Philosopher(2);
